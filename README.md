@@ -12,4 +12,4 @@ This is version 2, you may get previous version for simplified form.
 *************************************************************************************************
 
 
-[Portfolio_NetworX_Tool_Pyhton_GUI.pdf](https://github.com/samdevel/Python_NetworX_Web_v2/files/10478952/Portfolio_NetworX_Tool_Pyhton_GUI.pdf)
+[NetworX_Tool_Pyhton_GUI.pdf](https://github.com/samdevel/Python_NetworX_Web_v2/files/10479001/NetworX_Tool_Pyhton_GUI.pdf)
