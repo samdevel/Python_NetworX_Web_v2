@@ -1,0 +1,11 @@
+Power Supply:
+
+	Redundant Power System is  present.
+	Thermal status:  normal
+	Input Voltage status:  normal
+	DC Output Voltage status:  normal
+
+
+Board Temperature:
+
+	normal.

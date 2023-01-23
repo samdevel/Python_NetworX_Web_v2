@@ -1,0 +1,17 @@
+-------------------------
+Device ID: SW2.devnet.net
+Entry address(es): 
+  IP address: 10.1.2.2
+Platform: Cisco 3640,  Capabilities: Router Switch IGMP 
+Interface: FastEthernet1/1,  Port ID (outgoing port): FastEthernet1/1
+Holdtime : 159 sec
+
+Version :
+Cisco IOS Software, 3600 Software (C3640-IK9O3S-M), Version 12.4(25b), RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2009 by Cisco Systems, Inc.
+Compiled Wed 12-Aug-09 12:52 by prod_rel_team
+
+advertisement version: 2
+VTP Management Domain: ''
+Duplex: full

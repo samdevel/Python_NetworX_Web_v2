@@ -1,0 +1,6 @@
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+UAT_SW.devnet.net
+                 Fas 1/1            177        R S I      3640      Fas 1/1

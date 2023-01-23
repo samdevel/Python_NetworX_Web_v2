@@ -1,0 +1,5 @@
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW(config)#ntp server 1.1.1.1
+SW(config)#end
+SW#

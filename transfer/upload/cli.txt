@@ -1,0 +1,3 @@
+show ver
+show ip int br
+show run | i userna

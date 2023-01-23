@@ -1,0 +1,102 @@
+c:\Python27\Scripts>pip install flask
+Collecting flask
+  Downloading https://files.pythonhosted.org/packages/9b/93/628509b8d5dc749656a9
+641f4caf13540e2cdec85276964ff8f43bbb1d3b/Flask-1.1.1-py2.py3-none-any.whl (94kB)
+
+    100% |UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU| 102kB 669kB/s
+Collecting Werkzeug>=0.15 (from flask)
+  Downloading https://files.pythonhosted.org/packages/d1/ab/d3bed6b92042622d24de
+cc7aadc8877badf18aeca1571045840ad4956d3f/Werkzeug-0.15.5-py2.py3-none-any.whl (3
+28kB)
+    100% |UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU| 337kB 731kB/s
+Collecting itsdangerous>=0.24 (from flask)
+  Downloading https://files.pythonhosted.org/packages/76/ae/44b03b253d6fade317f3
+2c24d100b3b35c2239807046a4c953c7b89fa49e/itsdangerous-1.1.0-py2.py3-none-any.whl
+
+Collecting click>=5.1 (from flask)
+  Downloading https://files.pythonhosted.org/packages/fa/37/45185cb5abbc30d72571
+04c434fe0b07e5a195a6847506c074527aa599ec/Click-7.0-py2.py3-none-any.whl (81kB)
+    100% |UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU| 81kB 1.1MB/s
+Collecting Jinja2>=2.10.1 (from flask)
+  Downloading https://files.pythonhosted.org/packages/1d/e7/fd8b501e7a6dfe492a43
+3deb7b9d833d39ca74916fa8bc63dd1a4947a671/Jinja2-2.10.1-py2.py3-none-any.whl (124
+kB)
+    100% |UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU| 133kB 769kB/s
+Collecting MarkupSafe>=0.23 (from Jinja2>=2.10.1->flask)
+  Downloading https://files.pythonhosted.org/packages/f7/58/85258115ce58190f20c2
+8fbb3b91c3b1a0a42e6375b100e489427c30488a/MarkupSafe-1.1.1-cp27-cp27m-win_amd64.w
+hl
+Installing collected packages: Werkzeug, itsdangerous, click, MarkupSafe, Jinja2
+, flask
+  The script flask.exe is installed in 'c:\python27\Scripts' which is not on PAT
+H.
+  Consider adding this directory to PATH or, if you prefer to suppress this warn
+ing, use --no-warn-script-location.
+Successfully installed Jinja2-2.10.1 MarkupSafe-1.1.1 Werkzeug-0.15.5 click-7.0
+flask-1.1.1 itsdangerous-1.1.0
+You are using pip version 18.0, however version 19.2.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' comm
+and.
+
+c:\Python27\Scripts>
+c:\Python27\Scripts>
+Soures:
+https://github.com/pallets/flask
+https://www.freecodecamp.org/news/how-to-build-a-web-application-using-flask-and-deploy-it-to-the-cloud-3551c985e492/
+
+
+c:\Python27\Scripts>
+c:\Python27\Scripts>pip install -U flask
+Requirement already up-to-date: flask in c:\python27\lib\site-packages (1.1.1)
+Requirement already satisfied, skipping upgrade: Werkzeug>=0.15 in c:\python27\l
+ib\site-packages (from flask) (0.15.5)
+Requirement already satisfied, skipping upgrade: itsdangerous>=0.24 in c:\python
+27\lib\site-packages (from flask) (1.1.0)
+Requirement already satisfied, skipping upgrade: click>=5.1 in c:\python27\lib\s
+ite-packages (from flask) (7.0)
+Requirement already satisfied, skipping upgrade: Jinja2>=2.10.1 in c:\python27\l
+ib\site-packages (from flask) (2.10.1)
+Requirement already satisfied, skipping upgrade: MarkupSafe>=0.23 in c:\python27
+\lib\site-packages (from Jinja2>=2.10.1->flask) (1.1.1)
+You are using pip version 18.0, however version 19.2.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' comm
+and.
+
+c:\Python27\Scripts>cd ..
+
+c:\Python27>python.exe flask_hello.py
+ * Serving Flask app "flask_hello" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployme
+nt.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 124-206-213
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [28/Jul/2019 00:21:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Jul/2019 00:21:50] "GET /favicon.ico HTTP/1.1" 404 -
+
+
+*************Running Flask**************
+c:\Python27>flask run
+'flask' is not recognized as an internal or external command,
+operable program or batch file.
+
+c:\Python27>python.exe Flask_Project/flask_hello.py
+ * Serving Flask app "flask_hello" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployme
+nt.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 167-275-898
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [02/Jul/2020 00:00:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2020 00:00:58] "GET /favicon.ico HTTP/1.1" 404 -
+
+
+

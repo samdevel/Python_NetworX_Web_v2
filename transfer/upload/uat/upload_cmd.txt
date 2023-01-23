@@ -1,0 +1,7 @@
+show ver
+show ip int br
+show ip route
+show run | sec line
+show env
+show cdp nei
+show cdp nei detail
